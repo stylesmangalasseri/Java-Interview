@@ -10,7 +10,13 @@ import lombok.RequiredArgsConstructor;
 @Getter
 public class EmployeeSinglyLinkedList {
 
+    /**
+     * Head node
+     */
     private EmployeeNode head;
+    /**
+     * Size of the list
+     */
     private int size;
 
     /**
